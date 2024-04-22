@@ -1,0 +1,16 @@
+package com.gamecodeschool.helloworld //project package
+import androidx.appcompat.app.AppCompatActivity //import app compat activity class
+import android.os.Bundle //import bundle from android.os package
+import android.widget.Toast //import toast widget class
+
+
+class MainActivity : AppCompatActivity() { //main activity class
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState) //calls onCreate method
+        setContentView(R.layout.activity_main) //sets layout to activity_main file
+
+        Toast.makeText(this, "Hello!",
+            Toast.LENGTH_SHORT) .show() //pop-up with "Hello!" message when app opens
+
+    }
+}

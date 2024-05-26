@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/asl_sign_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/asl_car"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:contentDescription="ASL Sign" />
+
+ 
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What does this sign mean?"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textStyle="bold" />
+
+
+    <RadioGroup
+        android:id="@+id/question_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/option_a_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello" />
+        <RadioButton
+            android:id="@+id/option_b_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sweep" />
+        <RadioButton
+            android:id="@+id/option_c_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water" />
+
+        <RadioButton
+            android:id="@+id/option_d_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car" />
+
+
+
+    </RadioGroup>
+</LinearLayout>

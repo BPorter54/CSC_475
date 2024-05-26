@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/link_title"
+        android:layout_width="407dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Videos for Basic Sign Language"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="191dp"
+        android:layout_height="561dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324"
+        tools:layout_editor_absoluteX="1dp">
+
+        <ImageButton
+            android:id="@+id/best_practices_button"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:background="#FFFFFF"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/best_practices" />
+
+        <ImageButton
+            android:id="@+id/common_gestures_button"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="138dp"
+            android:background="#FFFFFF"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/love_sign" />
+
+        <ImageButton
+            android:id="@+id/alphabet_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/sign_a_foreground" />
+
+        <ImageButton
+            android:id="@+id/food_button"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:background="#FFFFFF"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/food_asl" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/best_practices_link"
+        android:layout_width="241dp"
+        android:layout_height="55dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Select the Check Box Button for a Video Tutorial of Best Practices for ASL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <TextView
+        android:id="@+id/common_gestures_link"
+        android:layout_width="236dp"
+        android:layout_height="61dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Select the Love Sign Button for a Tutorial Video of Common Gestures"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328" />
+
+    <TextView
+        android:id="@+id/alphabet_link"
+        android:layout_width="236dp"
+        android:layout_height="55dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Select the &quot;A&quot; Button for a Video Tutorial of the ASL Alphabet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489" />
+
+    <TextView
+        android:id="@+id/common_foods_link"
+        android:layout_width="237dp"
+        android:layout_height="62dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Select the Burger Button for a Video Tutorial of some Common Foods in ASL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <Button
+        android:id="@+id/home_screen_1"
+        android:layout_width="202dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginBottom="28dp"
+        android:text="Home Screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/common_foods_link" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

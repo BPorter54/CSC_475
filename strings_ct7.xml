@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">YourAppName</string>
+    <string-array name="conversion_options_array">
+        <item>Kilograms to Pounds</item>
+        <item>Pounds to Kilograms</item>
+        <item>Fahrenheit to Celcius</item>
+        <item>Celcius to Fahrenheit</item>
+        <item>Feet to Meters</item>
+        <item>Meters to Feet</item>
+    </string-array>
+</resources>
